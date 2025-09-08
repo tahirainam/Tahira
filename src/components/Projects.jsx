@@ -2,13 +2,18 @@ import ProjectCard from "./ProjectCard";
 
 function Projects() {
   return (
-    <section className="projects" id="projects">
-      <div className="skills-writting">
-        <h2 className="section-heading"><b>Projects</b></h2>
-        <p className="skills-p">Here are some of my projects.</p>
+    <section
+      className="w-full max-w-6xl mx-auto px-6 flex flex-col items-center justify-center bg-gray-900 text-white px-6 py-12"
+      id="projects"
+    >
+      {/* Section Heading */}
+      <div className="text-center mb-12">
+        <h2 className="text-3xl font-bold mb-4">Projects</h2>
+        <p className="text-gray-300">Here are some of my projects.</p>
       </div>
 
-      <div className="projects-disc">
+      {/* Projects Grid */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 w-full max-w-6xl">
         <ProjectCard
           title="Computare"
           description="A simple javaScript calculator using event listener and if-else statements."
@@ -32,6 +37,7 @@ function Projects() {
           github="https://github.com/Inahira/portfolio"
           demo="https://inahira.vercel.app/"
         />
+
         <ProjectCard
           title="Computare"
           description="A simple javaScript calculator using event listener and if-else statements."

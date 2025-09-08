@@ -1,24 +1,40 @@
 function ProjectCard({ title, description, tech, github, demo }) {
   return (
-    <div className="card">
-      <div className="card-header">
+    <div className="bg-gray-800 text-white rounded-lg p-6 flex flex-col justify-between shadow-md hover:shadow-xl transition-shadow duration-300 max-w-sm mx-auto">
+      
+      {/* Card Header: Links */}
+      <div className="flex justify-end space-x-4 mb-4 text-lg">
         {github && (
-          <a href={github} target="_blank" rel="noopener noreferrer">
+          <a
+            href={github}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-gray-400 transition-colors"
+          >
             <i className="fab fa-github"></i>
           </a>
         )}
         {demo && (
-          <a href={demo} target="_blank" rel="noopener noreferrer">
+          <a
+            href={demo}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-indigo-400 transition-colors"
+          >
             <i className="fa-solid fa-up-right-from-square"></i>
           </a>
         )}
       </div>
-      <div className="card-heading">
-        <h3>{title}</h3>
+
+      {/* Card Heading */}
+      <div className="mb-4">
+        <h3 className="text-xl font-semibold text-center">{title}</h3>
       </div>
-      <div className="card-paragraph">
+
+      {/* Card Description */}
+      <div className="text-center text-gray-300 space-y-2">
         <p>{description}</p>
-        <p>{tech}</p>
+        <p className="text-sm text-indigo-400">{tech}</p>
       </div>
     </div>
   );
