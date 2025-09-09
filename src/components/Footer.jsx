@@ -1,11 +1,11 @@
 function Footer() {
   return (
-    <footer className="w-full bg-gray-800 text-white py-6 flex flex-col items-center justify-center text-center space-y-2">
-      <p className="text-sm text-gray-300">
+    <footer className="w-full py-6 flex flex-col items-center justify-center text-center space-y-2 border-t border-gray-200">
+      <p className="text-sm">
         Built and designed by <span className="font-semibold">Tahira Inam</span>
       </p>
-      <p className="text-sm text-gray-400">
-        &copy; 2023-{new Date().getFullYear()}
+      <p className="text-sm">
+        © 2023 - {new Date().getFullYear()}
       </p>
     </footer>
   );

@@ -1,7 +1,7 @@
 function ProjectCard({ title, description, tech, github, demo }) {
   return (
-    <div className="bg-gray-800 text-white rounded-lg p-6 flex flex-col justify-between shadow-md hover:shadow-xl transition-shadow duration-300 max-w-sm mx-auto">
-      
+    <div className="w-full bg-gray-200 rounded-lg p-6 flex flex-col justify-between shadow-md hover:shadow-xl border border-black transition-shadow duration-300 max-w-sm mx-auto">
+
       {/* Card Header: Links */}
       <div className="flex justify-end space-x-4 mb-4 text-lg">
         {github && (
@@ -32,7 +32,7 @@ function ProjectCard({ title, description, tech, github, demo }) {
       </div>
 
       {/* Card Description */}
-      <div className="text-center text-gray-300 space-y-2">
+      <div className="text-center space-y-2">
         <p>{description}</p>
         <p className="text-sm text-indigo-400">{tech}</p>
       </div>

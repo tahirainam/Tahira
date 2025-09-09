@@ -3,13 +3,13 @@ import ProjectCard from "./ProjectCard";
 function Projects() {
   return (
     <section
-      className="w-full max-w-6xl mx-auto px-6 flex flex-col items-center justify-center bg-gray-900 text-white px-6 py-12"
+      className="w-full h-screen flex flex-col items-center justify-center px-6 py-12"
       id="projects"
     >
       {/* Section Heading */}
       <div className="text-center mb-12">
         <h2 className="text-3xl font-bold mb-4">Projects</h2>
-        <p className="text-gray-300">Here are some of my projects.</p>
+        <p>Here are some of my projects.</p>
       </div>
 
       {/* Projects Grid */}

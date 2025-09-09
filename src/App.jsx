@@ -7,21 +7,21 @@ import Footer from "./components/Footer";
 
 import "@fortawesome/fontawesome-free/css/all.min.css";
 //import './css/index.css';
-//import './css/App.css';
+import './css/App.css';
 //import "./css/style.css";
 //import "./css/responsive.css";
 
 function App() {
   return (
-    <>
+    <div className="text-black min-h-screen w-full">
       <Navbar />
-      <main>
+      <main className="max-w-5xl mx-auto px-6">
         <Home />
         <About />
         <Projects />
       </main>
       <Footer />
-    </>
+    </div>
   );
 }
 
