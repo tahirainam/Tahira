@@ -11,59 +11,56 @@ function Projects() {
         <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-3 sm:mb-4">
           Projects
         </h2>
-        <p className="text-sm sm:text-base text-gray-600">
-          Here are some of my projects.
-        </p>
       </div>
 
       {/* Projects Grid */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 w-full max-w-6xl">
         <ProjectCard
-          title="Computare"
-          description="A simple JavaScript calculator using event listeners and if-else statements."
-          tech="HTML, CSS, JS"
-          github="https://github.com/Inahira/Computare"
-          demo="https://inahira.github.io/Computare/"
-        />
-
-        <ProjectCard
-          title="To-Do List"
-          description="An interactive to-do list app with CRUD operations."
-          tech="HTML, CSS, JS"
-          github="https://github.com/Inahira/todo"
-          demo="https://inahira.github.io/todo/"
-        />
-
-        <ProjectCard
-          title="Portfolio Website"
+          title="Portfolio"
           description="My personal portfolio to showcase projects and skills."
+          tech="JavaScript, React, Tailwind CSS"
+          github="https://github.com/tahirainam/portfolio"
+          demo="https://tahirainam.github.io/portfolio/"
+        />
+
+        <ProjectCard
+          title="AlzAI"
+          description="A machine learning model to detect Alzheimer's disease."
+          tech="Python, Flask, ML, Tailwind CSS, HTML"
+          github="https://github.com/tahirainam/AlzAI"
+          demo="https://tahirainam.github.io/AlzAI/"
+        />
+
+        <ProjectCard
+          title="TINT"
+          description="A site with purpose that I forgot right now."
           tech="React, CSS"
           github="https://github.com/Inahira/portfolio"
           demo="https://inahira.vercel.app/"
         />
-
+        
         <ProjectCard
-          title="Computare"
-          description="A simple JavaScript calculator using event listeners and if-else statements."
-          tech="HTML, CSS, JS"
-          github="https://github.com/Inahira/Computare"
-          demo="https://inahira.github.io/Computare/"
+          title="csXplore"
+          description="A site where you can explore various computer science topics and concepts from well known and authentic resources."
+          tech="React, Tailwind CSS, JS,  MomgoDB"
+          github="https://github.com/tahirainam/csXplore"
+          demo="https://tahirainam.github.io/csXplore/"
         />
 
         <ProjectCard
-          title="To-Do List"
-          description="An interactive to-do list app with CRUD operations."
-          tech="HTML, CSS, JS"
-          github="https://github.com/Inahira/todo"
-          demo="https://inahira.github.io/todo/"
+          title="The Visionary Unifier"
+          description="A tribute to Professor. Dr. Abdul salaam. The first Muslim Nobel laureate in Physics."
+          tech="HTML, CSS"
+          github="https://github.com/tahirainam/The-Visionary-Unifier"
+          demo="https://tahirainam.github.io/The-Visionary-Unifier/"
         />
 
         <ProjectCard
-          title="Portfolio Website"
-          description="My personal portfolio to showcase projects and skills."
-          tech="React, CSS"
-          github="https://github.com/Inahira/portfolio"
-          demo="https://inahira.vercel.app/"
+          title="Stopwatch Web App"
+          description="A simple stopwatch web app built with HTML, CSS, and JavaScript."
+          tech="HTML, CSS, JavaScript"
+          github="https://github.com/tahirainam/stopWatchWebApp"
+          demo="https://tahirainam.github.io/stopWatchWebApp/"
         />
       </div>
     </section>
