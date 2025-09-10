@@ -6,19 +6,19 @@ function Home() {
     >
       <div className="max-w-5xl mx-auto">
         {/* Intro */}
-        <h1 className="text-2xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 leading-snug">
-          Hi, It's <span className="text-gray-900">Tahira Inam</span>
-        </h1>
+        <h1 className="text-3xl sm:text-5xl md:text-6xl lg:text-6xl mb-4 leading-snug max-w-[90%] sm:max-w-[80%]">
+  Hey, I'm <span className="text-gray-900 font-bold">Tahira Inam</span>.
+</h1>
 
-        <p className="mb-2 text-base sm:text-lg md:text-xl text-gray-700">
-          At times, I'm involved in creating stuff.
-        </p>
+<h2 className="mb-3 text-xl sm:text-3xl md:text-3xl lg:text-3xl text-gray-700 font-medium max-w-[90%] sm:max-w-[75%]" id="subheading">
+  I like making code look good and work even better.
+</h2>
 
-        <p className="text-sm sm:text-base md:text-lg text-gray-600" id="para">
-          I'm a student <strong>(BS Software Engineering)</strong> based in Sialkot. <br />
-          I have deep interest in <strong>front-end development</strong>. <br />
-          Ready to take any challenge!
-        </p>
+<p className="text-base sm:text-lg md:text-xl text-gray-600 max-w-[95%] sm:max-w-[70%]" id="para">
+  I’m a software engineer student, exploring front-end, back-end, and creative coding. 
+  I’ve built projects that mix design with logic, and I keep learning with every experiment.
+</p>
+
 
         {/* Button */}
         <div className="mt-8 mb-12">
