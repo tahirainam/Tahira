@@ -5,9 +5,10 @@ function Navbar() {
         {/* Left side: Logo + Links */}
         <div className="flex items-center space-x-8">
           {/* Logo */}
-          <p className="font-semibold text-xl hover:text-gray-700 transition-colors cursor-pointer">
+          <a 
+                href="#home" className="font-semibold text-xl hover:text-gray-700 transition-colors cursor-pointer">
             tahirainam
-          </p>
+          </a>
 
           {/* Links */}
           <ul className="flex text-gray-700 space-x-6 font-normal ">
