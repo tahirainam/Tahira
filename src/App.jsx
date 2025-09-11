@@ -4,6 +4,12 @@ import Home from "./components/Home";
 import About from "./components/About";
 import Projects from "./components/Projects";
 import Footer from "./components/Footer";
+import "@fontsource/space-grotesk";
+import "@fontsource/space-grotesk/700.css";
+import "@fontsource/inter";
+import "@fontsource/inter/500.css";
+import "@fontsource/jetbrains-mono";
+
 
 import "@fortawesome/fontawesome-free/css/all.min.css";
 //import './css/index.css';

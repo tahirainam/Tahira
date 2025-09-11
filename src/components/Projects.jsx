@@ -3,12 +3,12 @@ import ProjectCard from "./ProjectCard";
 function Projects() {
   return (
     <section
-      className="w-full min-h-screen flex flex-col items-center justify-center px-4 sm:px-6 md:px-12 py-12 text-black"
+      className="w-full min-h-screen flex flex-col items-center justify-center px-4 sm:px-6 md:px-12 py-6 text-black"
       id="projects"
     >
       {/* Section Heading */}
       <div className="text-center mb-10 sm:mb-12">
-        <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-3 sm:mb-4">
+        <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-1 sm:mb-2">
           Projects
         </h2>
       </div>

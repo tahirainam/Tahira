@@ -10,7 +10,7 @@ function Home() {
   Hey, I'm <span className="text-gray-900 font-bold">Tahira Inam</span>.
 </h1>
 
-<h2 className="mb-3 text-xl sm:text-3xl md:text-3xl lg:text-3xl text-gray-700 font-medium max-w-[90%] sm:max-w-[75%]" id="subheading">
+<h2 className="mb-3 text-xl sm:text-3xl md:text-3xl lg:text-3xl text-gray-700 font-light max-w-[90%] sm:max-w-[75%]" id="subheading">
   I like making code look good and work even better.
 </h2>
 
@@ -26,9 +26,9 @@ function Home() {
             href="mailto:tahirainam1@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center text-black px-4 sm:px-6 py-2 sm:py-3 border border-black hover:bg-gray-100 hover:text-gray-800 rounded-lg text-base sm:text-lg font-medium transition"
+            className="inline-flex items-center text-black px-4 sm:px-6 py-2 sm:py-3 border border-gray-400 bg-white hover:border-black text-base sm:text-lg font-medium transition"
           >
-            <i className="fas fa-envelope mr-2"></i> Say hi
+            <i className="fas fa-envelope mr-2"></i> say hi
           </a>
         </div>
       </div>

@@ -10,10 +10,10 @@ function About() {
           About Me
         </h2>
         <p className="text-sm sm:text-base md:text-lg leading-relaxed text-gray-700">
-          Hi, I’m Tahira Inam. I’m a <span className="underline">Software Engineering student</span>, learning my way through front-end, back-end, and a bit of creative coding. Along the way, I’ve done <span className="underline">remote internships</span>, built small projects, and tried things just to see how they work.
+          Hi, I’m Tahira Inam. I’m a <span className="underline hover:text-black">Software Engineering student</span>, learning my way through front-end, back-end, and a bit of creative coding. Along the way, I’ve done <span className="underline hover:text-black">remote internships</span>, built small projects, and tried things just to see how they work.
         </p>
         <p className="text-sm sm:text-base md:text-lg leading-relaxed text-gray-700">
-          Right now, I’m focused on <span className="underline">growing my skills</span> and becoming the kind of developer who builds things that are simple, useful, and a little creative.
+          Right now, I’m focused on <span className="underline hover:text-black">growing my skills</span> and becoming the kind of developer who builds things that are simple, useful, and a little creative.
         </p>
         <p className="text-sm sm:text-base md:text-lg leading-relaxed text-gray-700">
          <br />Outside of coding, I spend time sketching and exploring new ideas. I’m also really fascinated by space, robotics, and how science keeps shaping the world.
@@ -47,7 +47,7 @@ function About() {
           ].map((skill) => (
             <span
               key={skill}
-              className="px-3 sm:px-4 py-1.5 sm:py-2 text-xs sm:text-sm bg-gray-200 rounded-full border border-gray-400 hover:border-black transition"
+              className="px-3 sm:px-4 py-1.5 sm:py-2 text-xs sm:text-sm bg-white border border-gray-400 hover:border-black transition"
             >
               {skill}
             </span>

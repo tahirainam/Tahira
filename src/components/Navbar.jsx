@@ -1,20 +1,20 @@
 function Navbar() {
   return (
-    <nav className="max-w-5xl mx-auto px-6 fixed w-full bg-gray-50 text-black py-3 shadow-sm z-50">
+    <nav className="max-w-5xl mt-0 mx-auto px-3 fixed w-full bg-white border border-black text-black py-4 sm:visibility-hidden shadow-sm z-50">
       <div className="flex items-center justify-between px-6 text-sm">
         {/* Left side: Logo + Links */}
         <div className="flex items-center space-x-8">
           {/* Logo */}
-          <p className="font-semibold hover:text-gray-700 transition-colors cursor-pointer">
-            Tahira Inam
+          <p className="font-semibold text-xl hover:text-gray-700 transition-colors cursor-pointer">
+            tahirainam
           </p>
 
           {/* Links */}
-          <ul className="flex text-gray-700 space-x-6 font-normal">
+          <ul className="flex text-gray-700 space-x-6 font-normal ">
             <li>
               <a
                 href="#home"
-                className="hover:text-gray-700 transition-colors"
+                className="hover:text-black transition-colors hover:underline decoration-2 underline-offset-4"
               >
                 Home
               </a>
@@ -22,7 +22,7 @@ function Navbar() {
             <li>
               <a
                 href="#about"
-                className="hover:text-gray-700 transition-colors"
+                className="hover:text-black transition-colors hover:underline decoration-2 underline-offset-4"
               >
                 About
               </a>
@@ -30,7 +30,7 @@ function Navbar() {
             <li>
               <a
                 href="#projects"
-                className="hover:text-gray-700 transition-colors"
+                className="hover:text-black transition-colors hover:underline decoration-2 underline-offset-4"
               >
                 Projects
               </a>
