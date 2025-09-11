@@ -10,13 +10,13 @@ function About() {
           About Me
         </h2>
         <p className="text-sm sm:text-base md:text-lg leading-relaxed text-gray-700">
-          Hi, I’m Tahira Inam. I’m a <span className="underline hover:text-black">Software Engineering student</span>, learning my way through front-end, back-end, and a bit of creative coding. Along the way, I’ve done <span className="underline hover:text-black">remote internships</span>, built small projects, and tried things just to see how they work.
+          Hi, I’m Tahira Inam. I’m a <span className="text-black">Software Engineering student</span>, learning my way through front-end, back-end, and a bit of creative coding. Along the way, I’ve done <span className="text-black">remote internships</span>, built small projects, and tried things just to see how they work.
         </p>
         <p className="text-sm sm:text-base md:text-lg leading-relaxed text-gray-700">
-          Right now, I’m focused on <span className="underline hover:text-black">growing my skills</span> and becoming the kind of developer who builds things that are simple, useful, and a little creative.
+          Right now, I’m focused on <span className="text-black">growing my skills</span> and becoming the kind of developer who builds things that are simple, useful, and a little creative.
         </p>
         <p className="text-sm sm:text-base md:text-lg leading-relaxed text-gray-700">
-         <br />Outside of coding, I spend time sketching and exploring new ideas. I’m also really fascinated by space, robotics, and how science keeps shaping the world.
+         <br />Outside of coding, I spend time sketching and exploring new ideas.
         </p>
       </div>
 
