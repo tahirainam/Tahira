@@ -58,7 +58,7 @@ function Navbar() {
             <i className="fa-brands fa-github"></i>
           </a>
           <a
-            href="https://medium.com/tahirainam"
+            href="https://medium.com/@tahirainam"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-gray-700 transition-colors"
