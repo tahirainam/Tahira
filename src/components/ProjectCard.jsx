@@ -32,7 +32,7 @@ function ProjectCard({ title, description, tech, github, demo }) {
               href={demo}
               target="_blank"
               rel="noopener noreferrer"
-              className="hover:text-indigo-500 transition-colors"
+              className="hover:text-gray-500 transition-colors"
             >
               <i className="fa-solid fa-up-right-from-square"></i>
             </a>
