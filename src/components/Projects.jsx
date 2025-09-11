@@ -17,7 +17,7 @@ function Projects() {
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 w-full max-w-6xl">
         <ProjectCard
           title="Portfolio"
-          description="My personal portfolio to showcase projects and skills."
+          description="This is project description"
           tech="JavaScript, React, Tailwind CSS"
           github="https://github.com/tahirainam/portfolio"
           demo="https://tahirainam.github.io/portfolio/"
@@ -25,40 +25,40 @@ function Projects() {
 
         <ProjectCard
           title="AlzAI"
-          description="A machine learning model to detect Alzheimer's disease."
-          tech="Python, Flask, ML, Tailwind CSS, HTML"
+          description="This is project description"
+          tech="JavaScript, React, Tailwind CSS"
           github="https://github.com/tahirainam/AlzAI"
           demo="https://tahirainam.github.io/AlzAI/"
         />
 
         <ProjectCard
           title="TINT"
-          description="A site with purpose that I forgot right now."
-          tech="React, CSS"
+          description="This is project description"
+          tech="JavaScript, React, Tailwind CSS"
           github="https://github.com/Inahira/portfolio"
           demo="https://inahira.vercel.app/"
         />
         
         <ProjectCard
           title="csXplore"
-          description="A site where you can explore various computer science topics and concepts from well known and authentic resources."
-          tech="React, Tailwind CSS, JS,  MomgoDB"
+          description="This is project description"
+          tech="JavaScript, React, Tailwind CSS"
           github="https://github.com/tahirainam/csXplore"
           demo="https://tahirainam.github.io/csXplore/"
         />
 
         <ProjectCard
           title="The Visionary Unifier"
-          description="A tribute to Professor. Dr. Abdul salaam. The first Muslim Nobel laureate in Physics."
-          tech="HTML, CSS"
+          description="This is project description"
+          tech="JavaScript, React, Tailwind CSS"
           github="https://github.com/tahirainam/The-Visionary-Unifier"
           demo="https://tahirainam.github.io/The-Visionary-Unifier/"
         />
 
         <ProjectCard
           title="Stopwatch Web App"
-          description="A simple stopwatch web app built with HTML, CSS, and JavaScript."
-          tech="HTML, CSS, JavaScript"
+          description="This is project description"
+          tech="JavaScript, React, Tailwind CSS"
           github="https://github.com/tahirainam/stopWatchWebApp"
           demo="https://tahirainam.github.io/stopWatchWebApp/"
         />
