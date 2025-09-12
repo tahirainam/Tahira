@@ -42,14 +42,6 @@ function Navbar() {
         {/* Right side: Icons */}
         <div className="flex items-center space-x-4 text-base">
           <a
-            href="https://www.linkedin.com/in/tahirainam"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hover:text-gray-700 transition-colors"
-          >
-            <i className="fa-brands fa-linkedin"></i>
-          </a>
-          <a
             href="https://github.com/tahirainam"
             target="_blank"
             rel="noopener noreferrer"
@@ -58,12 +50,20 @@ function Navbar() {
             <i className="fa-brands fa-github"></i>
           </a>
           <a
+            href="https://www.linkedin.com/in/tahirainam"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-gray-700 transition-colors"
+          >
+            <i className="fa-brands fa-linkedin"></i>
+          </a>
+          <a
             href="https://medium.com/@tahirainam"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-gray-700 transition-colors"
           >
-            <i className="fa-brands fa-medium"></i>
+            <i className="fa fa-pencil"></i>
           </a>
         </div>
       </div>
