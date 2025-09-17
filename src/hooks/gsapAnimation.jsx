@@ -10,7 +10,7 @@ function gsapAnimations() {
     gsap.utils.toArray(".section").forEach((section) => {
       gsap.fromTo(
   section,
-  { opacity: 0, y: 50 }, // start
+  { opacity: 0, y: 20 }, // start
   {
     opacity: 1,
     y: 0, // end
@@ -18,7 +18,7 @@ function gsapAnimations() {
     scrollTrigger: {
       trigger: section,
       start: "top 90%", // animate when section is in viewport
-      end: "top 80%",   // adjust how far the scroll should scrub
+      end: "top 70%",   // adjust how far the scroll should scrub
       scrub: 5,
       //markers: true,
     },

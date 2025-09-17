@@ -29,7 +29,7 @@ function About() {
           Here are some technologies I’ve been working with:
         </p>
 
-        <div className="flex flex-wrap justify-center gap-2 sm:gap-3">
+        <div className="section flex flex-wrap justify-center gap-2 sm:gap-3">
           {[
             "JavaScript",
             "React.js",
