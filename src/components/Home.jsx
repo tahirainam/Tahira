@@ -15,7 +15,7 @@ function Home() {
 </h2>
 
 <p className="text-base sm:text-lg md:text-xl text-gray-600 max-w-[95%] sm:max-w-[70%]" id="para">
-  I’m a software engineer student, exploring front-end, back-end, and creative coding. 
+  I’m a front-end developer meta certified, and a software engineering student exploring back-end, and creative coding.
   I’ve built projects that mix design with logic, and I keep learning with every experiment.
 </p>
 
