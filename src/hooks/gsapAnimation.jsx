@@ -8,17 +8,21 @@ gsap.registerPlugin(ScrollTrigger);
 function gsapAnimations() {
   useEffect(() => {
     gsap.utils.toArray(".section").forEach((section) => {
-      gsap.from(section, {
-    y: 50,
+      gsap.fromTo(
+  section,
+  { opacity: 0, y: 50 }, // start
+  {
+    opacity: 1,
+    y: 0, // end
     duration: 0.5,
-    ease: "power2.out",
     scrollTrigger: {
       trigger: section,
-      start: "top 85%",   // waits until section is near the bottom
-      end: "bottom 60%",  // optional: defines when animation is done
-      toggleActions: "play none none reverse", 
-      // markers: true,  // remove when done debugging
+      start: "top 90%", // animate when section is in viewport
+      end: "top 80%",   // adjust how far the scroll should scrub
+      scrub: 5,
+      //markers: true,
     },
+    ease: "power2.inOut",
   });
 });
 

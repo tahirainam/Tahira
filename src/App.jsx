@@ -10,7 +10,7 @@ import "@fontsource/inter";
 import "@fontsource/inter/500.css";
 import "@fontsource/jetbrains-mono";
 
-//import gsapAnimation from "./hooks/gsapAnimation";
+import gsapAnimation from "./hooks/gsapAnimation";
 
 import "@fortawesome/fontawesome-free/css/all.min.css";
 //import './css/index.css';
@@ -19,11 +19,11 @@ import './css/App.css';
 //import "./css/responsive.css";
 
 function App() {
-  //gsapAnimation();
+  gsapAnimation();
   return (
     <div className="text-black min-h-screen w-full">
       <Navbar />
-      <main className="max-w-5xl mx-auto px-6">
+      <main className="max-w-5xl mx-auto px-3">
         <Home />
         <About />
         <Projects />

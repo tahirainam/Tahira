@@ -3,7 +3,7 @@ import ProjectCard from "./ProjectCard";
 function Projects() {
   return (
     <section
-      className="section w-full min-h-screen flex flex-col items-center justify-center px-4 sm:px-6 md:px-12 py-6 text-black"
+      className="section w-full min-h-screen flex flex-col items-center justify-center px-4 sm:px-6 md:px-12 py-3 text-black"
       id="projects"
     >
       {/* Section Heading */}

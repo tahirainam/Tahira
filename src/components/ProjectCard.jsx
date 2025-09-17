@@ -1,6 +1,6 @@
 function ProjectCard({ title, description, tech, github, demo }) {
   return (
-    <div className="w-full max-w-xs sm:max-w-sm md:max-w-md bg-white p-4 sm:p-6 flex flex-col justify-between shadow-md hover:shadow-2xl border border-gray-400 hover:border-black transition-shadow duration-300 mx-auto">
+    <div className="section w-full max-w-xs sm:max-w-sm md:max-w-md bg-white p-4 sm:p-6 flex flex-col justify-between shadow-md hover:shadow-2xl border border-gray-400 hover:border-black transition-shadow duration-300 mx-auto">
       
       {/* Card Header: Links */}
       
