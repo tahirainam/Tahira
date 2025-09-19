@@ -1,9 +1,12 @@
+import Earth from "./earth";  
 function Home() {
   return (
+    <>
     <section
       className="section w-full min-h-screen flex flex-col items-center justify-center text-center px-4 sm:px-6 md:px-12 py-12"
       id="home"
-    >
+      >
+        <Earth />
       <div className="max-w-5xl mx-auto">
         {/* Intro */}
         <h1 className="text-3xl sm:text-5xl md:text-6xl lg:text-6xl mb-4 leading-snug max-w-[90%] sm:max-w-[80%]">
@@ -32,7 +35,8 @@ function Home() {
           </a>
         </div>
       </div>
-    </section>
+      </section>
+      </>
   );
 }
 
