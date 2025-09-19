@@ -42,3 +42,7 @@ code,
 .code-like {
   font-family: "JetBrains Mono", monospace;
 }
+.cardBorder {
+  border: 2px solid #000000;
+  border-radius: 50% 10% 50% 10% / 10% 50% 10% 50%;
+}
