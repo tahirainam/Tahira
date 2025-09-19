@@ -3,7 +3,7 @@ function Home() {
   return (
     <>
     <section
-      className="section w-full min-h-screen flex flex-col items-center justify-center text-center px-4 sm:px-6 md:px-12 py-12"
+      className="section w-full min-h-screen flex flex-col items-center justify-center text-center px-4 sm:px-6 md:px-1"
       id="home"
       >
         <Earth />
