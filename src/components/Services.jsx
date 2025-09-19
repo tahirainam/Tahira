@@ -2,7 +2,7 @@ import ProjectCard from "../components/ProjectCard";
 function Services() {
     return (
         <section className="section w-full min-h-screen flex flex-col items-center justify-center px-4 sm:px-6 md:px-12 py-3 text-black" id="services">
-            <h1 className="text-3xl font-bold mb-2">My Services</h1>
+            <h1 className="text-3xl font-bold mb-2">Services I am Providing</h1>
             <p className="mb-4">This is my only Service for now :') .</p>
             <div className="section w-full items-center justify-center px-4 sm:px-6 md:px-12 py-3 text-black" id="projects">
                 <ProjectCard
