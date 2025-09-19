@@ -13,9 +13,9 @@ function Services() {
             href="mailto:tahirainam1@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center text-black mt-2 px-10 sm:px-6 py-2 sm:py-2 border border-gray-400 bg-white hover:border-black text-base sm:text-lg font-medium transition"
+            className="flex  text-black px-10 text-bold sm:px-6 py-2 sm:py-2 hover:text-gray-600 text-base sm:text-lg font-medium transition"
              >
-             Hire Me
+             frontend projects ↗
           </a>
                 />
             </div>
