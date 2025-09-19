@@ -7,7 +7,7 @@ function About() {
       {/* About Me */}
       <div className="max-w-3xl mb-12">
         <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-6">
-          About Me
+          A little bit about me
         </h2>
         <p className="text-sm sm:text-base md:text-lg leading-relaxed text-gray-700">
           Hi, I’m Tahira Inam. I’m a <span className="text-black">Software Engineering student</span>, learning my way through front-end, back-end, and a bit of creative coding. Along the way, I’ve done <span className="text-black">remote internships</span>, built small projects, and tried things just to see how they work.
