@@ -5,13 +5,13 @@ function About() {
       id="about"
     >
       {/* About Me */}
-      <div className="text-left max-w-3xl mb-12">
+      <div className="text-center md:text-left max-w-3xl mb-12">
         
         <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-6">
           A little bit about me
         </h2>
-        <div className="flex flex-row gap-1">
-        <div className="text-left pr-6">
+        <div className="flex flex-col md:flex-row gap-1">
+        <div className="text-center md:text-left pr-6">
           <p className="text-sm mb-2 sm:text-base md:text-lg leading-relaxed text-gray-700">
            I’m currently pursuing a BS in Software Engineering, finding my way through front-end, back-end, and a little creative experimenting too. Along the way, I’ve tried few remote internships.
          </p>
@@ -22,7 +22,7 @@ function About() {
          <br />Outside of coding, you’ll usually find me sketching or chasing new ideas :')
           </p>
           </div>
-          <div className="w-1/2 p-4 flex flex-col border border-gray-500 outline outline-1 outline-gray-300 p-4">
+          <div className="w-full md:w-1/2 p-4 flex flex-col border border-gray-500 outline outline-1 outline-gray-300 p-4">
             <h2 className="font-bold mb-4">CERTIFICATIONS</h2>
             <a href="https://www.coursera.org/account/accomplishments/professional-cert/004WQSTB7RML" className="text-sm underline hover:no-underline mb-3">Meta Front End Developer</a>
             <a href="https://www.coursera.org/account/accomplishments/records/4YUGC76J5W0C" className="text-sm underline hover:no-underline mb-3">UI/UX Design</a>
@@ -34,7 +34,7 @@ function About() {
       
 
       {/* Skills Section */}
-      <div className="text-left coding max-w-3xl mb-12">
+      <div className="text-center md:text-left coding max-w-3xl mb-12">
         <h2 className="text-xl sm:text-2xl font-semibold mb-3">
           What I’ve been using
         </h2>
@@ -42,7 +42,7 @@ function About() {
           Here are some technologies I’ve been working with...
         </p>
 
-        <div className="section flex flex-wrap justify-left gap-2 sm:gap-3">
+        <div className="section flex flex-wrap justify-center md:justify-left gap-2 sm:gap-3">
           {[
             "JavaScript",
             "React.js",
