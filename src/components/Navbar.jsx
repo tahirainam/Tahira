@@ -11,7 +11,7 @@ function Navbar() {
           </a>
 
           {/* Links */}
-          <ul className="flex text-gray-700 space-x-6 font-normal ">
+          <ul className="hidden md:flex text-gray-700 space-x-6 font-normal ">
             <li>
               <a
                 href="#home"
