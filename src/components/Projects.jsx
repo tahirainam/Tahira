@@ -30,6 +30,15 @@ function Projects() {
           github="https://github.com/tahirainam/AlzAI"
           demo="https://tahirainam.github.io/AlzAI/"
         />
+        
+        <ProjectCard
+          title="csXplore"
+          description="This is project description"
+          tech="JavaScript, React, Tailwind CSS"
+          github="https://github.com/tahirainam/csXplore"
+          demo="https://tahirainam.github.io/csXplore/"
+        />
+
         <ProjectCard
           title="TINT"
           description="This is project description"
@@ -37,6 +46,7 @@ function Projects() {
           github="https://github.com/Inahira/portfolio"
           demo="https://inahira.vercel.app/"
         />
+        
 
         <ProjectCard
           title="The Visionary Unifier"
