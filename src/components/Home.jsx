@@ -9,17 +9,16 @@ function Home() {
         <Earth />
       <div className="max-w-5xl mx-auto">
         {/* Intro */}
-        <h1 className="text-3xl sm:text-5xl md:text-6xl lg:text-6xl mb-4 leading-snug max-w-[90%] sm:max-w-[80%]">
+        <h1 className="text-3xl sm:text-5xl md:text-6xl lg:text-6xl mb-2 leading-snug max-w-[90%] sm:max-w-[80%]">
   Hey, I'm <span className="text-gray-900 font-bold">Tahira Inam</span>.
 </h1>
-<p>⦿ Available for small to medium sized projects</p>
+<p className="mb-2">⦿ Available for freelance work</p>
 <h2 className="mb-3 text-xl sm:text-3xl md:text-3xl lg:text-3xl text-gray-700 font-light max-w-[90%] sm:max-w-[75%]" id="subheading">
   I like making code look good and work even better.
 </h2>
 
 <p className="text-base sm:text-lg md:text-xl text-gray-600 max-w-[95%] sm:max-w-[70%]" id="para">
-  I’m a front-end developer meta certified, and a software engineering student exploring back-end, and creative coding.
-  I’ve built projects that mix design with logic, and I keep learning with every experiment.
+  I’m a software engineering student, and a <span className="text-black">front-end developer</span> meta certified, and exploring new technologies, and creative coding. I'm currently working on my side projects and learning new things.
 </p>
 
 
