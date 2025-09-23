@@ -10,7 +10,7 @@ function About() {
         <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-6">
           A little bit about me
         </h2>
-        <div className="flex flex-row ">
+        <div className="flex flex-row gap-1">
         <div className="text-left pr-6">
           <p className="text-sm mb-2 sm:text-base md:text-lg leading-relaxed text-gray-700">
            I’m currently pursuing a BS in Software Engineering, finding my way through front-end, back-end, and a little creative experimenting too. Along the way, I’ve tried few remote internships.
