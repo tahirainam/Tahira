@@ -2,6 +2,8 @@
 
 The second iteration of my personal portfolio website, built with **React.js** and styled using **Tailwind CSS** (with Three.js for 3D elements).
 
+![portfolio preview](/public/preview.jpg)
+
 ## Tech Stack  
 - **Frontend:** React.js, Vite, Tailwind CSS  
 - **3D Graphics:** Three.js  
