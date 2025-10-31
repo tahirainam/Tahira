@@ -22,7 +22,7 @@ function About() {
          <br />Outside of coding, you’ll usually find me sketching or chasing new ideas :')
           </p>
           </div>
-          <div className="w-full md:w-1/2 p-4 flex flex-col border border-gray-500 outline outline-1 outline-gray-300 p-4">
+          <div className="w-full mt-4 md:w-1/2 p-4 flex flex-col border border-gray-500 outline outline-1 outline-gray-300 p-4">
             <h2 className="font-bold mb-4">CERTIFICATIONS</h2>
             <a href="https://www.coursera.org/account/accomplishments/professional-cert/004WQSTB7RML" className="text-sm underline hover:no-underline mb-3">Meta Front End Developer</a>
             <a href="https://www.coursera.org/account/accomplishments/records/4YUGC76J5W0C" className="text-sm underline hover:no-underline mb-3">UI/UX Design</a>
