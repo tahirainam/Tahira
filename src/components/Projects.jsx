@@ -20,7 +20,7 @@ function Projects() {
           description="Personal portfolio website to showcase my projects."
           tech="JavaScript, React, Tailwind CSS"
           github="https://github.com/tahirainam/Tahira"
-          demo="https://tahirainam.github.io/Tahira/"
+          demo="https://tahira-khaki.vercel.app/"
         />
 
         <ProjectCard
@@ -36,7 +36,7 @@ function Projects() {
           description="WaM is a web base Whack-A-Mole game built using ReactJS."
           tech="Vanilla JavaScript, HTML, CSS"
           github="https://github.com/tahirainam/WaM"
-          demo="https://WaM.vercel.app/"
+          demo="https://WaM-six.vercel.app/"
         />
 
         <ProjectCard
@@ -61,13 +61,6 @@ function Projects() {
           github="https://github.com/tahirainam/csXplore"
           demo="https://tahirainam.github.io/csXplore/"
         />
-
-        
-        
-
-        
-
-        
       </div>
     </section>
   );
