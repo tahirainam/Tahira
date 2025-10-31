@@ -1,4 +1,4 @@
-# Personal Portfolio - v2  
+# Portfolio - v2  
 
 The second iteration of my personal portfolio website, built with **React.js** and styled using **Tailwind CSS** (with Three.js for 3D elements).
 
