@@ -17,52 +17,57 @@ function Projects() {
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4 w-full max-w-6xl">
         <ProjectCard
           title="Portfolio"
-          description="This is project description"
+          description="Personal portfolio website to showcase my projects."
           tech="JavaScript, React, Tailwind CSS"
-          github="https://github.com/tahirainam/portfolio"
-          demo="https://tahirainam.github.io/portfolio/"
+          github="https://github.com/tahirainam/Tahira"
+          demo="https://tahirainam.github.io/Tahira/"
+        />
+
+        <ProjectCard
+          title="Little Lemon"
+          description="Little Lemon is a fictional restaurant website built using ReactJS."
+          tech="JavaScript, React, CSS"
+          github="https://github.com/tahirainam/little-lemon"
+          demo="https://tahirainam.github.io/little-lemon/"
+        />
+
+        <ProjectCard
+          title="WaM"
+          description="WaM is a web base Whack-A-Mole game built using ReactJS."
+          tech="Vanilla JavaScript, HTML, CSS"
+          github="https://github.com/tahirainam/WaM"
+          demo="https://WaM.vercel.app/"
+        />
+
+        <ProjectCard
+          title="Student Data Management System"
+          description="Console based application Developed in C++ to manage student records, including add, search, update, and delete functionalities."
+          tech="C++"
+          github="https://github.com/tahirainam/Student_Data_Management_System"
         />
 
         <ProjectCard
           title="AlzAI"
-          description="This is project description"
-          tech="JavaScript, React, Tailwind CSS"
+          description="AlzAI is an AI-powered web application designed to assist in the early detection of Alzheimer's disease."
+          tech="Python, Flask, AI/ML, HTML, CSS"
           github="https://github.com/tahirainam/AlzAI"
           demo="https://tahirainam.github.io/AlzAI/"
         />
         
         <ProjectCard
           title="csXplore"
-          description="This is project description"
-          tech="JavaScript, React, Tailwind CSS"
+          description="csXplore is designed to assist computer science students in exploring various CS topics through well-Known learning resources."
+          tech="React, Tailwind CSS"
           github="https://github.com/tahirainam/csXplore"
           demo="https://tahirainam.github.io/csXplore/"
         />
 
-        <ProjectCard
-          title="TINT"
-          description="This is project description"
-          tech="JavaScript, React, Tailwind CSS"
-          github="https://github.com/Inahira/portfolio"
-          demo="https://inahira.vercel.app/"
-        />
+        
         
 
-        <ProjectCard
-          title="The Visionary Unifier"
-          description="This is project description"
-          tech="JavaScript, React, Tailwind CSS"
-          github="https://github.com/tahirainam/The-Visionary-Unifier"
-          demo="https://tahirainam.github.io/The-Visionary-Unifier/"
-        />
+        
 
-        <ProjectCard
-          title="Stopwatch Web App"
-          description="This is project description"
-          tech="JavaScript, React, Tailwind CSS"
-          github="https://github.com/tahirainam/stopWatchWebApp"
-          demo="https://tahirainam.github.io/stopWatchWebApp/"
-        />
+        
       </div>
     </section>
   );
