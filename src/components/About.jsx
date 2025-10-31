@@ -47,6 +47,7 @@ function About() {
             "JavaScript",
             "React.js",
             "Three.js",
+            "P5.js",
             "HTML5",
             "CSS3",
             "Python",
