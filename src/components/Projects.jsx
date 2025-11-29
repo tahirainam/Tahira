@@ -24,6 +24,41 @@ function Projects() {
         />
 
         <ProjectCard
+          title="WaM"
+          description="WaM is a web base Whack-A-Mole game built using ReactJS."
+          tech="Vanilla JavaScript, HTML, CSS"
+          github="https://github.com/tahirainam/WaM"
+          demo="https://WaM-six.vercel.app/"
+        />
+        <ProjectCard
+          title="Stop Watch Web App"
+          description="Stop Watch Web App is a web application built using JavaScript."
+          tech="JavaScript, HTML, CSS"
+          github="https://github.com/tahirainam/stopWatchWebApp"
+          demo="https://tahirainam.github.io/stopWatchWebApp/"
+        />
+
+
+        <ProjectCard
+          title="Student Data Management System"
+          description="Console based application Developed in C++ to manage student records, including add, search, update, and delete functionalities."
+          tech="C++"
+          github="https://github.com/tahirainam/Student_Data_Management_System"
+        />
+        <ProjectCard
+          title="Console Based To-Do List Application"
+          description="This is a simple command-line to-do list application implemented in C++. It allows users to add tasks, view tasks, mark tasks as completed, and delete tasks."
+          tech="C++"
+          github="https://github.com/tahirainam/ConsoleBasedTODO"
+        />
+        <ProjectCard
+          title="Scientific Calculator"
+          description="This is a simple command-line scientific calculator application implemented in C++. It allows users to perform various mathematical operations."
+          tech="C++"
+          github="https://github.com/tahirainam/Scientific_Calculator"
+        />
+
+        <ProjectCard
           title="Little Lemon"
           description="Little Lemon is a fictional restaurant website built using ReactJS."
           tech="JavaScript, React, CSS"
@@ -32,23 +67,8 @@ function Projects() {
         />
 
         <ProjectCard
-          title="WaM"
-          description="WaM is a web base Whack-A-Mole game built using ReactJS."
-          tech="Vanilla JavaScript, HTML, CSS"
-          github="https://github.com/tahirainam/WaM"
-          demo="https://WaM-six.vercel.app/"
-        />
-
-        <ProjectCard
-          title="Student Data Management System"
-          description="Console based application Developed in C++ to manage student records, including add, search, update, and delete functionalities."
-          tech="C++"
-          github="https://github.com/tahirainam/Student_Data_Management_System"
-        />
-
-        <ProjectCard
           title="AlzAI"
-          description="AlzAI is an AI-powered web application designed to assist in the early detection of Alzheimer's disease."
+          description="AlzAI is an AI-powered web application designed to assist in the early detection of Alzheimer's disease. (Still in progress)"
           tech="Python, Flask, AI/ML, HTML, CSS"
           github="https://github.com/tahirainam/AlzAI"
           demo="https://tahirainam.github.io/AlzAI/"
@@ -56,7 +76,7 @@ function Projects() {
         
         <ProjectCard
           title="csXplore"
-          description="csXplore is designed to assist computer science students in exploring various CS topics through well-Known learning resources."
+          description="csXplore is designed to assist computer science students in exploring various CS topics through well-Known learning resources. (Still in progress)"
           tech="React, Tailwind CSS"
           github="https://github.com/tahirainam/csXplore"
           demo="https://tahirainam.github.io/csXplore/"
