@@ -26,7 +26,7 @@ function About() {
             <h2 className="font-bold mb-4">CERTIFICATIONS</h2>
             <a href="https://www.coursera.org/account/accomplishments/professional-cert/004WQSTB7RML" className="text-sm underline hover:no-underline mb-3">Meta Front End Developer</a>
             <a href="https://www.coursera.org/account/accomplishments/records/4YUGC76J5W0C" className="text-sm underline hover:no-underline mb-3">UI/UX Design</a>
-            <a href="https://www.coursera.org/account/accomplishments/verify/MBN9BBX0VBT0" className="text-sm underline hover:no-underline mb-3">Detecting COVID-19 with Chest X-Ray using PyTorch</a>
+            <a href="https://www.coursera.org/account/accomplishments/verify/OWWF5L60805H" className="text-sm underline hover:no-underline mb-3">C# for .NET Developers</a>
             
           </div>
           </div>
