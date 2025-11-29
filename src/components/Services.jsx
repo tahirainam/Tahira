@@ -15,7 +15,7 @@ function Services() {
             rel="noopener noreferrer"
             className="flex  text-white m-2 px-10 text-bold sm:px-6 py-2 sm:py-2 text-base sm:text-lg font-medium border border-black bg-black hover:text-black hover:bg-white transition"
              >
-             frontend projects ↗
+             Request
           </a>
                 />
                 </div>
