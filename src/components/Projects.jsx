@@ -16,28 +16,34 @@ function Projects() {
       {/* Projects Grid */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4 w-full max-w-6xl">
         <ProjectCard
-          title="Portfolio"
-          description="Personal portfolio website to showcase my projects."
-          tech="JavaScript, React, Tailwind CSS"
+          title="Tahira"
+          description="This is the second iteration of my personal website, designed and rebuilt from the ground up using React and Vite."
+          tech="React.js, Vite, Tailwind CSS"
           github="https://github.com/tahirainam/Tahira"
           demo="https://tahira-khaki.vercel.app/"
         />
-
         <ProjectCard
-          title="WaM"
-          description="WaM is a web base Whack-A-Mole game built using ReactJS."
-          tech="Vanilla JavaScript, HTML, CSS"
-          github="https://github.com/tahirainam/WaM"
-          demo="https://WaM-six.vercel.app/"
-        />
-        <ProjectCard
-          title="Stop Watch Web App"
-          description="Stop Watch Web App is a web application built using JavaScript."
-          tech="JavaScript, HTML, CSS"
-          github="https://github.com/tahirainam/stopWatchWebApp"
-          demo="https://tahirainam.github.io/stopWatchWebApp/"
+          title="Stock Trading Platform"
+          description="Zerodha-inspired Full stack Stock Trading Platform, with interactive data visualization dashboards."
+          tech="MongoDB, Express.js, React.js, Node.js, Bootstrap"
+          github="https://github.com/tahirainam/Stock-Trading-Platform"
+          demo="https://stock-trading-platform.vercel.app/"
         />
 
+        <ProjectCard
+          title="AlzAI"
+          description="AlzAI is an AI-powered web application for Alzheimer's disease Risk Assessment with 95.81% accuracy."
+          tech="Python(Flask), AI/ML, HTML, CSS"
+          github="https://github.com/tahirainam/AlzAI"
+          demo="https://tahirainam.github.io/AlzAI/"
+        />
+
+        <ProjectCard
+          title="Chess"
+          description="Chess is a console-based game developed in Java, allowing two players to play against each other with basic rules and functionalities."
+          tech="Java"
+          github="https://github.com/tahirainam/chess"
+        />
 
         <ProjectCard
           title="Student Data Management System"
@@ -45,42 +51,23 @@ function Projects() {
           tech="C++"
           github="https://github.com/tahirainam/Student_Data_Management_System"
         />
-        <ProjectCard
-          title="Console Based To-Do List Application"
-          description="This is a simple command-line to-do list application implemented in C++. It allows users to add tasks, view tasks, mark tasks as completed, and delete tasks."
-          tech="C++"
-          github="https://github.com/tahirainam/ConsoleBasedTODO"
-        />
-        <ProjectCard
-          title="Scientific Calculator"
-          description="This is a simple command-line scientific calculator application implemented in C++. It allows users to perform various mathematical operations."
-          tech="C++"
-          github="https://github.com/tahirainam/Scientific_Calculator"
-        />
 
         <ProjectCard
-          title="Little Lemon"
-          description="Little Lemon is a fictional restaurant website built using ReactJS."
-          tech="JavaScript, React, CSS"
-          github="https://github.com/tahirainam/little-lemon"
-          demo="https://tahirainam.github.io/little-lemon/"
-        />
-
-        <ProjectCard
-          title="AlzAI"
-          description="AlzAI is an AI-powered web application designed to assist in the early detection of Alzheimer's disease. (Still in progress)"
-          tech="Python, Flask, AI/ML, HTML, CSS"
-          github="https://github.com/tahirainam/AlzAI"
-          demo="https://tahirainam.github.io/AlzAI/"
+          title="Noise"
+          description="Noise is a home for my p5.js creative coding projects and experiments, built with React."
+          tech="React.js, vite, p5.js"
+          github="https://github.com/tahirainam/Noise"
         />
         
-        <ProjectCard
-          title="csXplore"
-          description="csXplore is designed to assist computer science students in exploring various CS topics through well-Known learning resources. (Still in progress)"
-          tech="React, Tailwind CSS"
-          github="https://github.com/tahirainam/csXplore"
-          demo="https://tahirainam.github.io/csXplore/"
-        />
+        {/*
+          <ProjectCard
+            title="csXplore"
+            description="csXplore is designed to assist computer science students in exploring various CS topics through well-Known learning resources. (Still in progress)"
+            tech="React, Tailwind CSS"
+            github="https://github.com/tahirainam/csXplore"
+            demo="https://tahirainam.github.io/csXplore/"
+          />
+        */}
       </div>
     </section>
   );

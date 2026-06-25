@@ -5,21 +5,23 @@ function ProjectCard({ title, description, tech, github, demo, button }) {
       {/* Card Header: Links */}
       
 
-      {/* Card Heading */}
+      {/* Card Heading
+      
       <div className="m-0.5 sm:mb-4">
         <h3 className="text-lg sm:text-xl md:text-xl font-semibold text-center">
           {title}
         </h3>
       </div>
 
+      */}
+      
+
       {/* Card Description */}
-      <div className=" text-center  sm:space-y-1 p-1">
-        <p className="text-sm sm:text-base ">{description}</p>
-        <p className="text-xs sm:text-sm md:text-base text-gray-500">{tech}</p>
-        <div className="flex justify-center p-1">
-          {button}
-        </div>
-        <div className="flex justify-center space-x-3">
+      <div className=" text-left  sm:space-y-1 p-1">
+        <div className="flex justify-right space-x-3">
+          <div className="flex-grow m-0.5 sm:mb-4"><h3 className="text-lg sm:text-xl md:text-xl font-semibold">
+          {title}
+        </h3></div>
           {github && (
             <a
               href={github}
@@ -40,6 +42,13 @@ function ProjectCard({ title, description, tech, github, demo, button }) {
               <i className="fa-solid fa-up-right-from-square"></i>
             </a>
           )}
+        </div>
+        <p className="text-sm sm:text-base ">{description}</p>
+        <div className="flex justify-left py-2">
+          <p className="text-xs sm:text-sm md:text-base text-gray-500">{tech}</p>
+        </div>
+        <div className="flex justify-center mt-2">
+          {button}
         </div>
       </div>
     </div>
